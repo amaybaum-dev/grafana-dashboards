@@ -5099,11 +5099,6 @@ camelcase@^6.0.0, camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-can-use-dom@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/can-use-dom/-/can-use-dom-0.1.0.tgz#22cc4a34a0abc43950f42c6411024a3f6366b45a"
-  integrity sha512-ceOhN1DL7Y4O6M0j9ICgmTYziV89WMd96SvSl0REd8PMgrY0B/WBOPoed5S1KUmJqXgUXh8gzSe6E3ae27upsQ==
-
 caniuse-api@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
@@ -5591,11 +5586,6 @@ core-js@^2.4.0:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
-
-core-js@^3.6.5:
-  version "3.26.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.26.0.tgz#a516db0ed0811be10eac5d94f3b8463d03faccfe"
-  integrity sha512-+DkDrhoR4Y0PxDz6rurahuB+I45OsEUv8E1maPTB6OuHRohMMcznBq9TMpdpDMm/hUPob/mJJS3PqgbHpMTQgw==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -10255,10 +10245,10 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
-lodash-es@^4.17.15:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
-  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+lodash-es@^4.17.21:
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.18.1.tgz#b962eeb80d9d983a900bf342961fb7418ca10b1d"
+  integrity sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==
 
 lodash.curry@^4.0.1:
   version "4.1.1"
@@ -10320,10 +10310,15 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==
 
-lodash@4.17.21, lodash@^4.1.1, lodash@^4.16.5, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.7.0, lodash@~4.17.15:
+lodash@4.17.21, lodash@^4.1.1, lodash@^4.16.5, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.7.0, lodash@~4.17.15:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+lodash@^4.17.21:
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
+  integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
 
 log-symbols@^4.1.0:
   version "4.1.0"
@@ -12048,7 +12043,7 @@ prop-types-exact@^1.2.0:
     object.assign "^4.1.0"
     reflect.ownkeys "^0.2.0"
 
-prop-types@15.x, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@15.x, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -13890,25 +13885,20 @@ simple-is@~0.2.0:
   resolved "https://registry.yarnpkg.com/simple-is/-/simple-is-0.2.0.tgz#2abb75aade39deb5cc815ce10e6191164850baf0"
   integrity sha512-GJXhv3r5vdj5tGWO+rcrWgjU2azLB+fb7Ehh3SmZpXE0o4KrrFLti0w4mdDCbR29X/z0Ls20ApjZitlpAXhAeg==
 
-simplebar-core@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/simplebar-core/-/simplebar-core-1.0.7.tgz#762cd0db534525184a5f96492664d40f27ce4fb5"
-  integrity sha512-hO1/nStBwXRwxeu7TT8PFVe1INEi2+RFf1Tjn1EvTwRB9yf84dJyWC7CFJfRvO2F/8Cdp0tg6MHVUGVbqFdebQ==
+simplebar-core@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/simplebar-core/-/simplebar-core-1.3.2.tgz#e249caf38625afb7c316b2d219b66afd6227e301"
+  integrity sha512-qKgTTuTqapjsFGkNhCjyPhysnbZGpQqNmjk0nOYjFN5ordC/Wjvg+RbYCyMSnW60l/Z0ZS82GbNltly6PMUH1w==
   dependencies:
-    "@babel/runtime" "^7.11.2"
-    can-use-dom "^0.1.0"
-    lodash-es "^4.17.15"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
 
 simplebar-react@^3.0.0-beta.8:
-  version "3.0.0-beta.10"
-  resolved "https://registry.yarnpkg.com/simplebar-react/-/simplebar-react-3.0.0-beta.10.tgz#de85c7c07e537a6057e113070e1720e5b5948f58"
-  integrity sha512-Y7+5bSL/w+0RuY5o5KH1pdqEr+TZ3KE/zG2G9Ccn0UMhoNCkwEko9noVL84VIborJ+Mkmrcwz1gKUhdxwK6hUQ==
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/simplebar-react/-/simplebar-react-3.3.2.tgz#699c9837f4ada71335b3eca9f8a2b788a559bda1"
+  integrity sha512-ZsgcQhKLtt5ra0BRIJeApfkTBQCa1vUPA/WXI4HcYReFt+oCEOvdVz6rR/XsGJcKxTlCRPmdGx1uJIUChupo+A==
   dependencies:
-    babel-runtime "^6.26.0"
-    core-js "^3.6.5"
-    lodash-es "^4.17.15"
-    prop-types "^15.6.1"
-    simplebar-core "^1.0.7"
+    simplebar-core "^1.3.2"
 
 sisteransi@^1.0.5:
   version "1.0.5"
